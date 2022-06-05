@@ -1,0 +1,2 @@
+# hash
+Hash function library
