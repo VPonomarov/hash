@@ -92,6 +92,6 @@ def sha1(message):
 
     return (h0 << 128)|(h1 << 96)|(h2 << 64)|(h3 << 32)|(h4)
 
-print("{:x}".format(sha1("abc")))
-print("{:x}".format(sha1("abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq")))
-print("{:x}".format(sha1("a" * 1000000)))
+# print("{:x}".format(sha1("abc")))
+# print("{:x}".format(sha1("abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq")))
+# print("{:x}".format(sha1("a" * 1000000)))
